@@ -6,6 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'first-angular-app';
-  sayi  =   12;
+  user='Berkay Üzümcü'
+  items=[
+    {description:"Kahvaltı",action:"No"},
+    {description:"Spor",action:"No"},
+    {description:"Tiyatro",action:"No"},
+    {description:"Sinema",action:"No"}
+  ]
 }
